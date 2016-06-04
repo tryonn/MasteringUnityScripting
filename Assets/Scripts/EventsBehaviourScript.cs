@@ -9,7 +9,10 @@ public class EventsBehaviourScript : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-	
+	void Update ()
+    {
+        //Rotate object by 2 degrees per frame around the Y axis
+
+        transform.Rotate(new Vector3(0.0f, 2.0f, 0.0f));	
 	}
 }
